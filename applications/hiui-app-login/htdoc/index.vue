@@ -2,7 +2,7 @@
 	<n-config-provider :theme-overrides="themeOverrides">
 		<div>
 			<div class="login">
-				<img style="width: 400px; height: 480px; background: #253554" src="./assets/login-logo.png" alt="speedbox" />
+				<img style="width: 400px; height: 480px; background: #253554" src="./assets/login-logo.png" alt="Openmptcprouter" />
 				<div class="login-input">
 					<div style="font-size: 24px">{{ $t('Login') }}</div>
 					<n-form size="large" ref="formRef" :model="formValue" :rules="rules">
@@ -38,7 +38,7 @@
 				</div>
 			</div>
 			<div class="copyright">
-				<span>© 2021 SpeedBox版权所有</span>
+				<span>© 2022 Openmptcprouter版权所有</span>
 				<n-divider vertical />
 				<span class="copyright-icon">
 					<n-icon size="large" :component="lg"></n-icon>

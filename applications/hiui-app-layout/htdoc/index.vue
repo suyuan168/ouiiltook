@@ -49,7 +49,7 @@
 
 				<n-layout-footer position="absolute" bordered style="padding: 4px">
 					<n-space justify="center" class="copyright">
-						<span type="primary">{{ $t('© 2021 SpeedBox版权所有') }}</span>
+						<span type="primary">{{ $t('© 2021 openmptcprouter版权所有') }}</span>
 						<n-divider vertical />
 						<span type="info">S/N: {{ info.sn }}</span>
 						<n-divider vertical />
