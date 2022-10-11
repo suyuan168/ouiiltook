@@ -12,11 +12,11 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'en-US',
-      description: 'A framework used to develop Web interface for OpenWrt'
+      description: '蚂蚁聚合路由器Openmptcprouter'
     },
     '/zh/': {
       lang: 'zh-CN',
-      description: '一个用于开发 OpenWrt Web 接口的框架'
+      description: '蚂蚁聚合路由器Openmptcprouter'
     }
   },
   theme: defaultTheme({
