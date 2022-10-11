@@ -81,7 +81,7 @@ define Package/hiui-ui-core/install
 	$(INSTALL_DIR) $(1)/usr/share/hiui/menu.d $(1)/www
 	$(INSTALL_CONF) ./files/menu.json $(1)/usr/share/hiui/menu.d/base.json
 	$(CP) $(PKG_BUILD_DIR)/htdoc/dist/* $(1)/www
-	mv $(1)/www/index.html $(1)/www/login.html
+	mv $(1)/www/hiui.html $(1)/www/login.html
 endef
 
 $(eval $(call BuildPackage,hiui-ui-core))
