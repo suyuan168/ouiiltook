@@ -12,11 +12,11 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'en-US',
-      description: '蚂蚁聚合路由器Openmptcprouter'
+      description: 'A framework used to develop Web interface for OpenWrt'
     },
     '/zh/': {
       lang: 'zh-CN',
-      description: '蚂蚁聚合路由器Openmptcprouter'
+      description: '一个用于开发 OpenWrt Web 接口的框架'
     }
   },
   theme: defaultTheme({
@@ -41,8 +41,7 @@ export default defineUserConfig({
                 '/guide/page.md',
                 '/guide/vue-api.md',
                 '/guide/lua-lib.md',
-                '/guide/lua-api.md',
-                '/guide/acl.md'
+                '/guide/lua-api.md'
               ]
             }
           ]
@@ -74,8 +73,7 @@ export default defineUserConfig({
                 '/zh/guide/page.md',
                 '/zh/guide/vue-api.md',
                 '/zh/guide/lua-lib.md',
-                '/zh/guide/lua-api.md',
-                '/zh/guide/acl.md'
+                '/zh/guide/lua-api.md'
               ]
             }
           ]

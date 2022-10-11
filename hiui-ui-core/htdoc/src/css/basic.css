@@ -1,0 +1,126 @@
+.the-menu {
+	--icon-active-color: #7f88b7;
+}
+
+.flex-hor-ac {
+	display: flex;
+	align-items: center;
+}
+
+.flex-hor {
+	display: flex;
+}
+
+.components-bg {
+	min-width: 1256px;
+	align-self: stretch;
+	border-radius: 8px;
+	background: linear-gradient(180deg, #f3f5f8 0%, #ffffff 100%);
+	box-sizing: border-box;
+	border: 2px solid #ffffff;
+	box-shadow: -4px -4px 10px 0px #ffffff, 4px 4px 10px 0px rgba(55, 99, 170, 0.05);
+}
+
+.components-bg-dark {
+	align-self: stretch;
+	min-width: 1256px;
+	border-radius: 8px;
+	background: linear-gradient(180deg, #000000 0%, var(--n-color) 100%);
+	box-sizing: border-box;
+	border: 2px solid #222222;
+	box-shadow: -4px -4px 10px 0px #222222, 4px 4px 10px 0px rgba(55, 99, 170, 0.05);
+}
+
+.bg-color {
+	width: -webkit-fill-available;
+	background: linear-gradient(180deg, #f3f5f8 0%, #ffffff 100%);
+}
+
+.bg-color-dark {
+	width: -webkit-fill-available;
+	background: linear-gradient(180deg, #000000 0%, var(--n-color) 100%);
+}
+
+.bg-border {
+	box-sizing: border-box;
+	border: 2px solid #ffffff;
+	box-shadow: -4px -4px 10px 0px #ffffff, 4px 4px 10px 0px rgba(55, 99, 170, 0.05);
+}
+
+.bg-border-dark {
+	box-sizing: border-box;
+	border: 2px solid #222222;
+	box-shadow: -4px -4px 10px 0px #222222, 4px 4px 10px 0px rgba(55, 99, 170, 0.05);
+}
+
+.list-item-border {
+	padding: 15px !important;
+	border-radius: 4px !important;
+	background: #ffffff;
+	box-sizing: border-box;
+	border: 1px solid rgba(73, 87, 112, 0.15);
+	height: 70px;
+}
+
+.circle {
+	width: 8px;
+	height: 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background: #1cc198;
+}
+
+.__divider {
+	--n-color: rgba(73, 87, 112, 0.15) !important;
+}
+
+.gray {
+	background: gray;
+}
+
+.font-18 {
+	font-size: 18px;
+}
+
+.font-24-size {
+	font-size: 24px;
+}
+
+.pd-8-20 {
+	padding: 8px 20px;
+}
+
+.pd-20 {
+	padding: 20px;
+}
+
+.pd-30 {
+	padding: 30px;
+}
+
+.pd-0-15 {
+	padding: 0 15px;
+}
+
+.pd-0-20 {
+	padding: 0 20px;
+}
+
+.mg-bt-10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.width-fill {
+	width: -webkit-fill-available;
+}
+.n-list {
+	background: transparent !important;
+}
+.n-list__header {
+	border-bottom: 0px !important;
+}
+
+.n-list-item div {
+	--n-text-color: #495770;
+}
